@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main{
+  height: 460vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.intro{
+  position: relative;
+  top: 8%;
+  left: 5%;
+  color: darkgrey;
+}
+
+.name{
+  position: relative;
+  top: 8%;
+  left: 5%;
+  font-size: 70px;
+}
+
+
+.skills-1{
+  position: relative;
+  top: 20%;
+  left: 3%;
+  font-size: 22px;
+}
+
+.skills-2{
+  position: relative;
+  top: 20%;
+  left: 20%;
+  font-size: 22px;
+}
+
+.skills-3{
+  position: relative;
+  top: 25%;
+  left: 5%;
+  font-size: 22px;
+}
+
+.language{
+  position: relative;
+  top: 30%;
+  text-align: left;
+  font-size: 22px;
+  left: 3%;
+}
+
+.card{
+  width: 15vh;
+  height: 15vh;
+  font-size: 15px;
+}
+
+.card-1{
+  position: relative;
+  top: 36%;
+  left: 3%;
+}
+
+.card>img{
+  width: 15vh;
+  height: 15vh;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-2{
+  position: relative;
+  top: 36%;
+  float: right;
+  right: 3%;
+}
+
+.card-3{
+  position: relative;
+  top: 40%;
+  float: left;
+  left: 3%;
+}
+
+.card-4{
+  position: relative;
+  top: 45%;
+  float: right;
+  right: -27%;
+}
+
+.card-5{
+  position: relative;
+  top: 48%;
+  float: left;
+  left: 3%;
+}
+
+.contact{
+  position: relative;
+  top: 60%;
+  height: 80vh;
+  width: 100vw;
+  margin: 30px;
+}
+
+.emailIcon{
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.email{
+  position: absolute;
+  top: 32%;
+  left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center
+}
+
+.tel{
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.tel-num{
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center
+}
